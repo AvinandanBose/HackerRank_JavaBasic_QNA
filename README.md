@@ -127,3 +127,13 @@ class A{
 
 <h3> Ans: 15 , Reason: The casting occurs here is <ins>Widening Casting </ins>,In Widening Casting(byte -> short -> char -> int -> long -> float -> double) , hence int can hold a char value , short value and a byte value . </h3>
 
+
+
+<h3>Cannot remember last three question.....😃</h3>
+
+<h3> <a href="https://www.hackerrank.com/certificates/2b2bfce1a7d0"> Certificate Link </h3>
+
+
+![download](https://user-images.githubusercontent.com/38869235/220115922-b30a5b75-fba7-4d50-a47e-a3eedc0e9cba.png)
+
+
