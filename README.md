@@ -105,4 +105,25 @@ public class Arithmetic {
 ```
 </h3>
 
+<h3>Q3) Below is the Question, what will be the result ?</h3>
+
+<h3 align=left>
+
+```
+class A{
+    public int add(int a, int b){
+        return a+b;
+    }
+    public static void main(String[] args){
+        A a = new A();
+       short s= 9;
+       System.out.println(a.add(s,6))
+    }
+}
+
+
+```
+</h3>
+
+<h3> Ans: 15 , Reason: The casting occurs here is <ins>Widening Casting </ins>,In Widening Casting(byte -> short -> char -> int -> long -> float -> double) , hence int can hold a char value , short value and a byte value . </h3>
 
