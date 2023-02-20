@@ -72,3 +72,37 @@ return false;
 
 ```
 </h3>
+
+<h3>Q2) Given a bare class, Arithmetic write a method sum, that accepts an array as an argument. Overload it to the process an array of Integer or String types as follows: For an Integer array, return the sum of the elements and For a String array, concatenate string in order.</h3>
+
+
+<h3 align=left>
+
+```
+
+public class Arithmetic {
+
+    // Method to sum the elements of an Integer array
+    public static int sum(Integer[] arr) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i]; //Sum of Elements
+        }
+        return sum;
+    }
+
+    // Method to concatenate the elements of a String array
+    public static String sum(String[] arr) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < arr.length; i++) {
+            sb.append(arr[i]); //concatenate the elements of a String
+        }
+        return sb.toString();
+    }
+}
+
+
+```
+</h3>
+
+
